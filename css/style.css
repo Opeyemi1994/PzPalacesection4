@@ -1,0 +1,101 @@
+.mobile-app .header{
+text-align: center;
+margin-top: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 154.69%;
+color: #FF7B00;
+}
+
+.mobile-app .mobile-img{
+    background: rgba(255, 255, 255, 0.49);
+    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.06);
+    position: relative;
+    left: 16%;
+    top: 20;
+    max-width: 100%;
+}
+
+.mobile-app h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 500px;
+    color: #000000;
+}
+
+
+.mobile-app h3{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+
+.mobile-app .lead{
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+.mobile-app a{
+    position: relative;
+    top: 45; 
+    padding: 6px;  
+    left: 4%; 
+}
+
+@media screen and (min-width:768px){
+    .mobile-app .header{
+        font-size: 38px;
+    }
+    
+    .mobile-app h4{
+        font-size: 45px;
+    }
+
+    .mobile-app h3{
+        font-size: 28px;
+    }
+
+    .mobile-app .lead{
+        font-size: 25px;
+    }
+
+    .mobile-app .mobile-img{
+        position: absolute;
+        left: 5%;
+        margin-top: 6%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .mobile-app .mobile-img{
+        position: absolute;
+        right: 0;
+        width: 75%;
+        margin-top: 12%;
+        
+    }
+    
+    .mobile-app .header{
+        font-size: 25px;
+    }
+    
+    .mobile-app h4{
+        font-size: 18px;
+        margin-top: 28%;
+    }
+
+    .mobile-app h3{
+        font-size: 15px;
+    }
+
+    .mobile-app .lead{
+        font-size: 15px;
+    }
+}
+
